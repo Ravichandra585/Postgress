@@ -1,5 +1,5 @@
-create database sunkavalli;
+create database sunkavalli_retail_db;
 
-create user Rayudu with encrypted password 'Sunkavalli@12345';
+create user sunkavalli_retail_user with encrypted password 'sunkavalli@12345';
 
-grant all on database sunkavalli to Rayudu;
+grant all on database sunkavalli_retail_db to sunkavalli_retail_user;
